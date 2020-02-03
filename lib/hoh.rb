@@ -61,15 +61,15 @@ def naming_system
     }
   PORTION_4 = {
     label: "Species",
-    sub_category: nil 
+    sub_category: nil
   }
   naming_system = {
     Kingdom: PORTION_1,
-    Pylum: PORTION_1[:sub_category],
-    Class: PORTION_1[:sub_category][:sub_category],
+    Pylum: PORTION_1,
+    Class: PORTION_1,
     Order: PORTION_2,
     Family: PORTION_3,
-    Genus: PORTION_3[:sub_category],
+    Genus: PORTION_3,
     Species: PORTION_4
   }
 end
