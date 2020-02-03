@@ -63,5 +63,4 @@ def naming_system
         }
       }
     }
-  return naming_system[:label][:sub_category][:sub_category]
 end
