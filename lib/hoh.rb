@@ -57,5 +57,5 @@ def naming_system
     label: "Species",
     sub_category: nil
   }
-  naming_system[:label][:sub_category][:label]
+  
 end
