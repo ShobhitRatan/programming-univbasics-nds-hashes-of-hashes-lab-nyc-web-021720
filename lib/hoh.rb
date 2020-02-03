@@ -41,6 +41,10 @@ def naming_system
   #  Species
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
+  PORTION_1 = {}
+  PORTION_2 = {}
+  PORTION_3 = {}
+  PORTION_4 = {}
   naming_system = {
     Kingdom: PORTION_1,
     Pylum: PORTION_1,
