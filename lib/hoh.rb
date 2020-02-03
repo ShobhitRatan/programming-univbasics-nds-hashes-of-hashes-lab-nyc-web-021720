@@ -43,11 +43,11 @@ def naming_system
   # HoH all the way to Species!
   naming_system = {
     Kingdom: PORTION_1,
-    Pylum: PORTION_1[:sub_category], 
+    Pylum: PORTION_1[:sub_category],
     Class: PORTION_1[:sub_category][:sub_category],
     Order: PORTION_2,
-    Family: PORTION_3, 
-    Genus: PORTION_3[:sub_category], 
+    Family: PORTION_3,
+    Genus: PORTION_3[:sub_category],
     Species: PORTION_4
   }
 end
